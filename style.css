@@ -241,7 +241,7 @@ nav p:hover {
   margin-top: 10px;
   color: black;
   line-height: 1.8;
-  font-size: 12px;
+  font-size: 14px;
   align-self: flex-start;
   transition: 0.5s linear all;
 }
