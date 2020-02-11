@@ -178,8 +178,7 @@ nav p:hover {
 }
 
 .adv-wrap {
-  padding: 20px 20px 40px 20px;
-  height: 100%;
+  padding: 40px 60px;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -224,7 +223,7 @@ nav p:hover {
 
 .adv-wrap svg {
   transition: 0.5s linear all;
-  height: 20%;
+  height: 5vh;
   width: auto;
   margin-right: auto;
   fill: #ff2c57;
@@ -249,7 +248,7 @@ nav p:hover {
 
 .adv-number {
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   right: 20px;
   color: rgba(0, 0, 0, 0.12);
   font-size: 150px;
