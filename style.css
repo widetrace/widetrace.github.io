@@ -16,7 +16,7 @@ header {
   flex-flow: row nowrap;
   justify-content: start;
   align-items: center;
-  height: 5vh;
+  height: 7.5vh;
   width: 100%;
   z-index: 100;
   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s all;
@@ -26,8 +26,6 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-
-  /* background: black; */
 }
 
 .fixed-header {
@@ -54,7 +52,7 @@ nav {
   flex-flow: row nowrap;
   justify-content: right;
   align-content: center;
-  margin-left: 50vw;
+  margin-left: 35vw;
 }
 
 nav p {
@@ -121,7 +119,7 @@ nav p:hover {
 }
 
 #second {
-  padding-top: 5vh;
+  padding-top: 7.5vh;
   padding-bottom: 5vh;
   display: flex;
   flex-flow: column nowrap;
@@ -196,10 +194,6 @@ nav p:hover {
   margin-bottom: 30px;
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  /* display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center; */
   overflow: hidden;
   position: relative;
   flex: 1;
@@ -258,7 +252,7 @@ nav p:hover {
 }
 
 #third {
-  min-height: 30vh;
+  min-height: 50vh;
   background: 
     linear-gradient(
       rgba(0,0,0,0.7),
@@ -312,7 +306,6 @@ nav p:hover {
   flex: 3;
   display: flex;
   flex-flow: column nowrap;
-  /* background: black; */
 }
 
 .block-strategy>h3 {
